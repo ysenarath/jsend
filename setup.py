@@ -9,14 +9,14 @@ with open('requirements.txt') as fh:
     requirements = fh.read().strip().split('\n')
 
 setuptools.setup(
-    name="jsend",
+    name="json-send",
     version="0.0.1",
     author="Yasas Senarath",
     author_email="ysenarath.93@gmail.com",
     description="Python Library for formatting JSON RESTful messages.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ysenarath/jsend",
+    url="https://github.com/ysenarath/json-send",
     packages=setuptools.find_packages(),
     install_requires=requirements,
     classifiers=[
